@@ -2,11 +2,12 @@
 # David Alonso Garduño Granados
 # python 3.7.3
 # 11/09/2019
-#
+# 11/09/2019
 #
 # Calcula la fuerza de atracción entre dos cargas
 # de 8 microcoulombs y 10 microcoulombs a 4 cm de distacnia el uno del otro
 # Para la formula necesitaremos emplear la constante de coulomb (k) para la cual usaremos un valor de 9*10**9
+# El resultado se arrojará en Newtons ya que es una fuerza
 k = 9*10**9
 '{:.6f}'.format(8e-06)
 q1 = 8*10**-6
