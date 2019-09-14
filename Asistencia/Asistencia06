@@ -1,0 +1,4 @@
+Semana 06:
+	En la clase del martes iniciamos usando IDLE, es un entorno de desarrollo en donde resolveremos problemas matemáticos con python, en la introducción aprendimos que uno de los errores más comunes son los errores de sintaxis, para evitarlo debemos de intentar ser lo más concisos con nuestras instrucciones, usamos un problema de tiro vertical para ejemplificar el uso de python, y definimos el formato sobre el cual entregaríamos cada trabajo.
+
+	En la clase del jueves, inciamos con el ejemplo de la clase pasada pero de una forma diferente, ya que era una versión innecesariamente descriptiva del mismo problema, para comprender el porque usamos el menor número de caracteres en python y los aclaramos con el uso de comentarios, aprendimos a usar las cadenas para describir los problemas y así mostrar los detalles del problema que estamos resolviendo.
