@@ -102,7 +102,7 @@ plt.plot(xp, yp, label='linear', color='r')
 ax.add_patch(circulo)
 
 plt.legend()
-plt.show() # comenten esta linea desde el inicio y descomenten la siguientem ¿hubo algun cambio?
+plt.show()
 plt.draw() 
 
 #los vértices de un hexágono inscrito en una circuferencia de radio r son
@@ -123,7 +123,23 @@ yh5=r*sin(5*ah)
 xh6=r*cos(6*ah)
 yh6=r*sin(6*ah)
 
+xh=np.array([xh1,xh2,xh3,xh4,xh5,xh6,xh1])
+yh=np.array([yh1,yh2,yh3,yh4,yh5,yh6,yh1])
+
 print("\nlas coordenadas de un hexágono inscrito en una circunferencia de radio r son:\n v1=(%5.2f,%5.2f)\n v2=(%5.2f,%5.2f)\n v3=(%5.2f,%5.2f)\n v4=(%5.2f,%5.2f)\n v5=(%5.2f,%5.2f)\n v6=(%5.2f,%5.2f)"%(xh1,yh1,xh2,yh2,xh3,yh3,xh4,yh4,xh5,yh5,xh6,yh6))
+
+circulo = plt.Circle((0,0), radius=r, color='b')
+ax=plt.gca()
+ax.spines['left'].set_position('center')
+ax.spines['bottom'].set_position('center')
+
+plt.gca().set_aspect('equal', adjustable='box')
+plt.plot(xh, yh, label='linear', color='r')
+ax.add_patch(circulo)
+
+plt.legend()
+plt.show()
+#plt.draw() 
 
 #los vértices de un heptágono inscrito en una circunferencia de radio r son
 
@@ -145,7 +161,23 @@ ye6=r*sin(6*ae)
 xe7=r*cos(7*ae)
 ye7=r*sin(7*ae)
 
+xe=np.array([xe1,xe2,xe3,xe4,xe5,xe6,ye7,xe1])
+ye=np.array([ye1,ye2,ye3,ye4,ye5,ye6,ye7,ye1])
+
 print("\nlas coordenadas de los vértices de un heptágono inscrito en una circunferencia de radio r son:\n v1=(%5.2f,%5.2f)\n v2=(%5.2f,%5.2f)\n v3=(%5.2f,%5.2f)\n v4=(%5.2f,%5.2f)\n v5=(%5.2f,%5.2f)\n v6=(%5.2f,%5.2f)\n v7=(%5.2f,%5.2f)"%(xe1,ye1,xe2,ye2,xe3,ye3,xe4,ye4,xe5,ye5,xe6,ye6,xe7,ye7))
+
+circulo = plt.Circle((0,0), radius=r, color='b')
+ax=plt.gca()
+ax.spines['left'].set_position('center')
+ax.spines['bottom'].set_position('center')
+
+plt.gca().set_aspect('equal', adjustable='box')
+plt.plot(xe, ye, label='linear', color='r')
+ax.add_patch(circulo)
+
+plt.legend()
+plt.show() 
+plt.draw() 
 
 #Los vértices de un otcágono inscrito en una circunferencia de radio r son
 
@@ -169,6 +201,9 @@ yo7=r*sin(7*ao)
 xo8=r*cos(8*ao)
 yo8=r*sin(8*ao)
 
+xo=np.array([xo1,xo2,xo3,xo4,xo5,xo6,yo7,xo8,xo1])
+yo=np.array([yo1,yo2,yo3,yo4,yo5,yo6,yo7,yo8,yo1])
+
 print("""Las coordenadas de los vértices de un octágono inscrito en una circunferencia son:
 v1=(%5.2f,%5.2f)
 v2=(%5.2f,%5.2f)
@@ -178,6 +213,19 @@ v5=(%5.2f,%5.2f)
 v6=(%5.2f,%5.2f)
 v7=(%5.2f,%5.2f)
 v8=(%5.2f,%5.2f)"""%(xo1,yo1,xo2,yo2,xo3,yo3,xo4,yo4,xo5,yo5,xo6,yo6,xo7,yo7,xo8,yo8))
+
+circulo = plt.Circle((0,0), radius=r, color='b')
+ax=plt.gca()
+ax.spines['left'].set_position('center')
+ax.spines['bottom'].set_position('center')
+
+plt.gca().set_aspect('equal', adjustable='box')
+plt.plot(xo, yo, label='linear', color='r')
+ax.add_patch(circulo)
+
+plt.legend()
+plt.show()
+plt.draw()
 
 #Los vértices de un eneágono inscrito en una circunferencia son:
 n=9
@@ -202,6 +250,9 @@ ya8=r*sin(8*ng)
 xa9=r*cos(9*ng)
 ya9=r*sin(9*ng)
 
+xa=np.array([xa1,xa2,xa3,xa4,xa5,xa6,ya7,xa8,xa9,xa1])
+ya=np.array([ya1,ya2,ya3,ya4,ya5,ya6,ya7,ya8,ya9,ya1])
+
 print("""Las coordenadas de los vértices de un eneágono inscrito en una circunferencia son:
 v1=(%5.2f,%5.2f)
 v2=(%5.2f,%5.2f)
@@ -212,6 +263,19 @@ v6=(%5.2f,%5.2f)
 v7=(%5.2f,%5.2f)
 v8=(%5.2f,%5.2f)
 v9=(%5.2f,%5.2f)"""%(xa1,ya1,xa2,ya2,xa3,ya3,xa4,ya4,xa5,ya5,xa6,ya6,xa7,ya7,xa8,ya8,xa9,ya9))
+
+circulo = plt.Circle((0,0), radius=r, color='b')
+ax=plt.gca()
+ax.spines['left'].set_position('center')
+ax.spines['bottom'].set_position('center')
+
+plt.gca().set_aspect('equal', adjustable='box')
+plt.plot(xa, ya, label='linear', color='r')
+ax.add_patch(circulo)
+
+plt.legend()
+plt.show()
+plt.draw()
 
 #Los vértices de un decágono inscrito en una circunferencia de radio r son
 
@@ -239,6 +303,9 @@ yg9=r*sin(9*ag)
 xg10=r*cos(10*ag)
 yg10=r*sin(10*ag)
 
+xg=np.array([xg1,xg2,xg3,xg4,xg5,xg6,xg7,xg8,xg9,xg10,xg1])
+yg=np.array([yg1,yg2,yg3,yg4,yg5,yg6,yg7,yg8,yg9,yg10,yg1])
+
 print("""Las coordenadas de los vértices de un decágono inscrito en una circunferencia son:
 v1=(%5.2f,%5.2f)
 v2=(%5.2f,%5.2f)
@@ -250,6 +317,19 @@ v7=(%5.2f,%5.2f)
 v8=(%5.2f,%5.2f)
 v9=(%5.2f,%5.2f)
 v10=(%5.2f,%5.2f)"""%(xg1,yg1,xg2,yg2,xg3,yg3,xg4,yg4,xg5,yg5,xg6,yg6,xg7,yg7,xg8,yg8,xg9,yg9,xg10,yg10))
+
+circulo = plt.Circle((0,0), radius=r, color='b')
+ax=plt.gca()
+ax.spines['left'].set_position('center')
+ax.spines['bottom'].set_position('center')
+
+plt.gca().set_aspect('equal', adjustable='box')
+plt.plot(xg, yg, label='linear', color='r')
+ax.add_patch(circulo)
+
+plt.legend()
+plt.show()
+plt.draw()
 
 #Los vértices de un endecágono inscrito en una circunferencia de radio r son
 
@@ -279,6 +359,9 @@ yn10=r*sin(10*an)
 xn11=r*cos(11*an)
 yn11=r*sin(11*an)
 
+xn=np.array([xn1,xn2,xn3,xn4,xn5,xn6,xn7,xn8,xn9,xn10,xn11,xg1])
+yn=np.array([yn1,yn2,yn3,yn4,yn5,yn6,yn7,yn8,yn9,yn10,yn11,yn1])
+
 print("""Las coordenadas de los vértices de un endecágono inscrito en una circunferencia son:
 v1=(%5.2f,%5.2f)
 v2=(%5.2f,%5.2f)
@@ -292,6 +375,18 @@ v9=(%5.2f,%5.2f)
 v10=(%5.2f,%5.2f)
 v11=(%5.2f,%5.2f)"""%(xn1,yn1,xn2,yn2,xn3,yn3,xn4,yn4,xn5,yn5,xn6,yn6,xn7,yn7,xn8,yn8,xn9,yn9,xn10,yn10,xn11,yn11))
 
+circulo = plt.Circle((0,0), radius=r, color='b')
+ax=plt.gca()
+ax.spines['left'].set_position('center')
+ax.spines['bottom'].set_position('center')
+
+plt.gca().set_aspect('equal', adjustable='box')
+plt.plot(xn, yn, label='linear', color='r')
+ax.add_patch(circulo)
+
+plt.legend()
+plt.show()
+plt.draw()
 
 #Los vértices de un dodecágono inscrito en una circunferencia de radio r son
 
@@ -323,6 +418,9 @@ yd11=r*sin(11*ad)
 xd12=r*cos(12*ad)
 yd12=r*sin(12*ad)
 
+xd=np.array([xd1,xd2,xd3,xd4,xd5,xd6,xd7,xd8,xd9,xd10,xd11,xd12,xd1])
+yd=np.array([yd1,yd2,yd3,yd4,yd5,yd6,yd7,yd8,yd9,yd10,yd11,yd12,yd1])
+
 print("""Las coordenadas de los vértices de un dodecágono inscrito en una circunferencia son:
 v1=(%5.2f,%5.2f)
 v2=(%5.2f,%5.2f)
@@ -336,3 +434,16 @@ v9=(%5.2f,%5.2f)
 v10=(%5.2f,%5.2f)
 v11=(%5.2f,%5.2f)
 v12=(%5.2f,%5.2f)"""%(xd1,yd1,xd2,yd2,xd3,yd3,xd4,yd4,xd5,yd5,xd6,yd6,xd7,yd7,xd8,yd8,xd9,yd9,xd10,yd10,xd11,yd11,xd12,yd12))
+
+circulo = plt.Circle((0,0), radius=r, color='b')
+ax=plt.gca()
+ax.spines['left'].set_position('center')
+ax.spines['bottom'].set_position('center')
+
+plt.gca().set_aspect('equal', adjustable='box')
+plt.plot(xd, yd, label='linear', color='r')
+ax.add_patch(circulo)
+
+plt.legend()
+plt.show()
+plt.draw()
