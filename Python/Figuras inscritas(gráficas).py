@@ -134,7 +134,7 @@ ax.spines['left'].set_position('center')
 ax.spines['bottom'].set_position('center')
 
 plt.gca().set_aspect('equal', adjustable='box')
-plt.plot(xh, yh, label='linear', color='r')
+plt.plot(xh,yh, label='linear', color='r')
 ax.add_patch(circulo)
 
 plt.legend()
@@ -161,7 +161,7 @@ ye6=r*sin(6*ae)
 xe7=r*cos(7*ae)
 ye7=r*sin(7*ae)
 
-xe=np.array([xe1,xe2,xe3,xe4,xe5,xe6,ye7,xe1])
+xe=np.array([xe1,xe2,xe3,xe4,xe5,xe6,xe7,xe1])
 ye=np.array([ye1,ye2,ye3,ye4,ye5,ye6,ye7,ye1])
 
 print("\nlas coordenadas de los vértices de un heptágono inscrito en una circunferencia de radio r son:\n v1=(%5.2f,%5.2f)\n v2=(%5.2f,%5.2f)\n v3=(%5.2f,%5.2f)\n v4=(%5.2f,%5.2f)\n v5=(%5.2f,%5.2f)\n v6=(%5.2f,%5.2f)\n v7=(%5.2f,%5.2f)"%(xe1,ye1,xe2,ye2,xe3,ye3,xe4,ye4,xe5,ye5,xe6,ye6,xe7,ye7))
@@ -201,7 +201,7 @@ yo7=r*sin(7*ao)
 xo8=r*cos(8*ao)
 yo8=r*sin(8*ao)
 
-xo=np.array([xo1,xo2,xo3,xo4,xo5,xo6,yo7,xo8,xo1])
+xo=np.array([xo1,xo2,xo3,xo4,xo5,xo6,xo7,xo8,xo1])
 yo=np.array([yo1,yo2,yo3,yo4,yo5,yo6,yo7,yo8,yo1])
 
 print("""Las coordenadas de los vértices de un octágono inscrito en una circunferencia son:
@@ -250,7 +250,7 @@ ya8=r*sin(8*ng)
 xa9=r*cos(9*ng)
 ya9=r*sin(9*ng)
 
-xa=np.array([xa1,xa2,xa3,xa4,xa5,xa6,ya7,xa8,xa9,xa1])
+xa=np.array([xa1,xa2,xa3,xa4,xa5,xa6,xa7,xa8,xa9,xa1])
 ya=np.array([ya1,ya2,ya3,ya4,ya5,ya6,ya7,ya8,ya9,ya1])
 
 print("""Las coordenadas de los vértices de un eneágono inscrito en una circunferencia son:
