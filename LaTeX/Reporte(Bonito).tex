@@ -1,0 +1,48 @@
+\documentclass[17pt]{extarticle}
+
+\usepackage[svgnames]{xcolor}
+\usepackage{graphicx}
+%\usepackage{emerald}
+\usepackage[doublespacing]{setspace}
+\usepackage[T1]{fontenc}
+\usepackage{wallpaper}
+
+
+\usepackage{rotating}
+\usepackage[first=-6,last=6]{lcg}
+\makeatletter
+\newcommand{\globalrand}{\rand\global\cr@nd\cr@nd}
+\makeatother
+
+\newcommand{\randomrotation}[1]{\globalrand\turnbox{\value{rand}}{#1}\phantom{#1}}
+
+
+\makeatletter
+\def\cthulhu#1{%
+    \@cthulhu#1 \@empty
+}
+\def\@cthulhu#1 #2{%
+   \randomrotation{#1}\space
+   \ifx #2\@empty\else
+    \expandafter\@cthulhu
+   \fi
+   #2%
+}
+\makeatother
+
+
+\newcommand{\eldersign}{\raisebox{-.5\height}{\includegraphics[height=3ex]{/home/alonso2499/THC/LaTeX/Imagenes/Elder-Sign.png}}}
+
+\renewcommand*{\rmdefault}{fts}
+
+\begin{document}\pagestyle{empty}\CenterWallPaper{}{/home/alonso2499/THC/LaTeX/Imagenes/Cover_01.png}
+
+\centering
+\color{DarkBlue}
+
+\cthulhu{El dia de ayer 29 de octubre del 2019 fui informado sobre la actividad que estabamos próximos a hacer, ya que no tenía las bibliotecas que habíamos instalado en una sesión, procedí a hacer la instalación y en el archivo "raíz cuadrada" pude observar que había otras de las cuales no tenía concimiento así que con un par de comandos las obtuve y fue así como pude lograr que el archivo compilara.
+Para comenzar la actividad en Python, primero me concentré en entender el procedimiento, luego noté que de hecho ya teníamos las instrucciones para python en el documento, así que solo era ponerlo en instrucciones explícitas.
+El día 30 de octubre, aclaré un par de dudas con el profesor y comenté algunas cosas con mis compañeros. Para darme cuenta que el archivo con la función definida era generalizar el primer archivo.
+La actividad parecía complicada en un inicio, pero solo era traducir lo que ya teníamos en el documento.} \eldersign
+
+\end{document}
