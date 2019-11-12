@@ -19,6 +19,6 @@ def raiz(b):
         b=(b+h)/2
         i=i+1
         h=x/b
-        bases.append(b)
-        alturas.append(h)
+        #bases.append(b)
+        #alturas.append(h)
         print("|      %g      |   %5.4f   |   %5.4f    |"%(i,b,h))
