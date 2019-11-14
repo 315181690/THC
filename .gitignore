@@ -1,0 +1,7 @@
+LaTeX/*.aux
+LaTeX/*.log
+!LaTeX/*.pdf
+!LaTeX/*
+!LaTeX/*.jpg
+!LaTeX/*.tex
+Python/__pycache__
