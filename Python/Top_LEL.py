@@ -9,12 +9,12 @@ def lel(r):
         return("Patient has broken jaw, fractured ribs")
     if 31<=r<=49:
         return("Patient is in a coma")
-    if r<=50:
+    if r>=50:
         return("Patient is dead")
 n=input()
 e=n.count('lol')
-o=3*(n.count('lel'))
-m=4*(n.count('lmao'))
+o=4*(n.count('lel'))
+m=3*(n.count('lmao'))
 z=2*(n.count('rofl'))
 r=e+o+m+z
 print(lel(r))
