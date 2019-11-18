@@ -12,8 +12,8 @@ def lel(r):
     if r<=50:
         return("Patient is dead")
 n=input()
-e=n.count('lel')
-o=3*(n.count('lol'))
+e=n.count('lol')
+o=3*(n.count('lel'))
 m=4*(n.count('lmao'))
 z=2*(n.count('rofl'))
 r=e+o+m+z
