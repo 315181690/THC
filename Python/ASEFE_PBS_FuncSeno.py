@@ -17,7 +17,7 @@ def seno(alfa):
     return(beta)
     
 if __name__ == "__main__":
-    #seno(.5)
+    seno(.5)
     print("Este bloque se ejecuta si el programa \
 es llamado desde IDLE, la variable __name__ tiene \
 almacenada la cadena '__main__' ")
