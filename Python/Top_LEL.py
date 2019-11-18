@@ -15,5 +15,6 @@ n=input()
 e=n.count('lel')
 o=3*(n.count('lol'))
 m=4*(n.count('lmao'))
-r=e+o+m
+z=2*(n.count('rofl'))
+r=e+o+m+z
 print(lel(r))
