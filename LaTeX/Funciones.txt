@@ -1,0 +1,17 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage[spanish]{babel}
+
+\title{Funciones}
+\author{David Alonso Garduño Granados}
+\date{19/11/19}
+
+\begin{document}
+	\maketitle
+	$ f(x,y)=(\sin y-y \sin x+x, \cos x+x y+y) $
+	\[ x_{0}, x^{2}, \frac{2}{3} \]
+	\centering $\dfrac{2}{3}$
+	\[f(n)=\left\{\begin{array}{ll}n/2 & \quad \mbox{if $n$ is even}\\ -(n+1)/2 & \quad \mbox{if $n$ is odd}\\ \end{array}\right. \]
+	
+\end{document}
