@@ -40,7 +40,7 @@ Esto quiere decir que para valores de $\alpha$ muy cercanos a cero el seno($\alp
 			2 & 0.250000000000 & 0.247403959255 & -0.002596040745\\
 			3 & 0.125000000000 & 0.124674733385 & -0.000325266615\\
 			4 & 0.062500000000 & 0.062459317842 & -0.000040682158\\
-			5 & 0.031250000000 & 0.031244913985 & -0.000005086015\\	  
+			5 & 0.031250000000 & 0.031244913985 & -0.000005086015\\fi\	  
 		 \hline
 		\end{tabular}
 	\caption{Comparación $sen(\alpha)$ contra $\alpha$ para valores de $\alpha$ cercanos a cero}
@@ -55,7 +55,7 @@ Esto quiere decir que para valores de $\alpha$ muy cercanos a cero el seno($\alp
 
 \pagebreak
 \section*{El procedimiento}
-\ifx
+
 \begin{tikzpicture}
     \begin{axis}[domain=-1:1,legend pos=outer north east]
     \addplot {sin(deg(x))}; 
@@ -63,7 +63,6 @@ Esto quiere decir que para valores de $\alpha$ muy cercanos a cero el seno($\alp
     \legend{$\sen(x)$,$x^2$}
     \end{axis}
 \end{tikzpicture}\\\\
-\fi
 \ifx
 El valor más grande de $\alpha$ al que se calculará el seno será $2\pi$, dado que el seno es una función periódica de periodo $2\pi$.\fi 
 \ifx
