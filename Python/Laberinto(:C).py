@@ -23,4 +23,4 @@ def laberinto(m, n):
     visitar(randint(0, m - 1), randint(0, n - 1))  # Inicio en celda aleatoria
     return('\n'.join(''.join(fila) for fila in A))  # Unir símbolos en un str
 
-print(laberinto(11,40))
+print(laberinto(15,18))
