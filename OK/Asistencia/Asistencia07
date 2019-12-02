@@ -1,0 +1,4 @@
+Semana 07:
+	En la clase del martes resolvimos un problema en python:"Cual eran las coordenadas de los vértices de un tríangulo, cuadrado, rectángulo, y un paralelogramo de lado 2 con uno de sus lados sobre el eje de las x y en el cuadrante I", trabajamos con ese problema toda la clase y aprendimos a importar algunas operaciones a Python, quedó como tarea resolver otro problema con python, obtener los vertices de figuras inscritas en una circunferencia (triángulo, cuadrado, pentágono, ..., dodecágono) con radio variable.
+	
+	En la clase del jueves, iniciamos comentando como resolvimos el problema de tarea, el profesor luego nos comentó como lo hizo él, y luego nos mostró como podíamos graficar las coordenadas que nos lanzaba python, nos enseñó paso por pasó como hacerlo nosotros mismos.

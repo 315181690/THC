@@ -1,0 +1,24 @@
+Semana 16:
+	Esta semana se nos recordó lo que es la ruta absoluta y su relación con la ruta relativa. La absoluta empieza desde la 
+raiz, y llega hasta el archivo deseado, mientras que la relativa comienza desde el directorio actual hasta llegar al 
+archivo deseado. Ademas resultó relevante que si se quiere utilizar el directorio anterior con una ruta relativa se 
+puede usar ../directorio. Posterior a este recordatorio se volvió a utilizar LaTeX. Se comenzó con la mención  de que 
+el signo $ se utiliza para definir expresiones matemáticas, se usan al iniciar y al terminar la expresión, de manera 
+similar a unos paréntesis, De la misma forma funciona \[ \] que resulta más útil en que existen expresiones que no se 
+pueden escribir con $ $, pero sí funcionan con \[ \]. Otra diferencia entre estoas dos formas de trabajar es que \[ \] 
+centra la exrpesión al compilarla. Se nos explicó también que el signo \ funciona de la misma manera que en Python, al 
+usar un print, hace que el siguiente caracter se lea como el caracter que representa, y que se ignore la funcionalidad 
+que se le otorga en LaTeX. Se utilizó la biblioteca amsmath, que sirve para trabajar con elementos matemáticos. Además 
+de esto se utilizaron: \quad, que inserta un espacio del tamaño de la fuente; \left y \ right, que centran lo que se 
+encuentre entre los dos; \begin{align*} y \end{align*}, que centran basado en algún elemento indicado con un & antes; 
+\begin{gather*} y \end{gather*}, que centran todo; \begin{flushleft} y \end{flushleft}, que alinean a la izquierda, 
+implicando estos la existencia de flushright, que alinea a la derecha; \enlargethispage\baselineskip, que alarga la página para que quepa el contenido requerido; \ifx y \fi, que siven para comentar bloques de texto, una al inicio y 
+otra al final.
+Es importante recalcar la mención de que Python es un lenguaje multiparadigma, a pesar de que su paradigma "principal" 
+es el de orientación a objetos. En relación a esto también se nos explicó que a lo largo del curso, aunque Python es 
+generalmente orientado a objetos, no se ha realizado este tipo de programación, sino que nuestros programas cumplen 
+más con el paradigma imperativo. Aunado a esto, se nos explicó que la programación orientada a objetos es generalmente 
+más "vérsatil" que otro tipo de programación, pues después de haber creado un programa que resuelva un problema 
+específico, aplicado a un objeto particular, es posible encontrar problemas similares, que se apliquen a objetos con 
+comportamiento similar. En este caso, se pueden "heredar" las características del objeto al que se le aplicó el 
+programa inicial, al nuevo objeto, con el fin de ajustar el programa a el nuevo problema y su objeto correspondiente. 
