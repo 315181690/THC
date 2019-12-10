@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.9.24)  19 NOV 2019 13:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.10.29)  9 DEC 2019 19:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -335,7 +335,7 @@ LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
  3184 strings out of 494587
- 44568 string characters out of 6177759
+ 44568 string characters out of 6177758
  113121 words of memory out of 5000000
  6765 multiletter control sequences out of 15000+600000
  27424 words of font info for 29 fonts, out of 8000000 for 9000
@@ -345,7 +345,7 @@ Here is how much of TeX's memory you used:
 ive/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/lm/lmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/lm/lmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr7.pfb>
-Output written on "Compilar Seno.pdf" (2 pages, 643836 bytes).
+Output written on "Compilar Seno.pdf" (2 pages, 643946 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream
